@@ -1,0 +1,21 @@
+.header-container {
+    width: "80%";
+    margin: "auto";
+    display: "flex";
+    flex-direction: row;
+    justify-content: "space-between";
+}
+
+.header-span-container {
+    display: "flex";
+    flex-direction: row;
+    justify-content: "flex-end";
+    margin-left: "10px";
+}
+
+@media (max-width: 800px) {
+.card-container {
+    flex-direction: column;
+    height:fit-content ;
+}
+}
